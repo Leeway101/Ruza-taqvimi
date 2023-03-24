@@ -28,6 +28,9 @@ function generate(arr) {
           <p>Sana: ${arr.date}</p>
         </div>
         <div class="card-action">
+        <p>Saharlik: ${arr.times.tong_saharlik}</p>
+        <p>Shom iftorlik: ${arr.times.shom_iftor}</p>
+        <hr>
         <p>Bomdod: ${arr.times.quyosh}</p>
         <p>Peshin: ${arr.times.peshin}</p>
         <p>Asr: ${arr.times.asr}</p>
